@@ -1,0 +1,7 @@
+api:
+  external:
+    yandex-geocoder:
+      name: yandex-geocoder-client
+      url: https://geocode-maps.yandex.ru/1.x/
+
+
