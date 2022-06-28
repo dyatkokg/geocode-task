@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(
         name = "${api.external.yandex-geocoder.name}",
-        url = "${api.external.yandex-geocoder.url}"
+        url = "${api.external.yandex-geocoder.url}",
+        configuration = FeignConfig.class
 )
 
 public interface YandexGeocoderClient {

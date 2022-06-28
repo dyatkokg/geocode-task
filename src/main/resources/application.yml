@@ -1,3 +1,11 @@
+logging:
+  level:
+    me:
+      dyatkokg:
+        geocodetask:
+          client:
+            YandexGeocoderClient: DEBUG
+
 api:
   external:
     yandex-geocoder:
