@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.geocoding;
+package me.dyatkokg.geocodetask.entity.geocoding;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

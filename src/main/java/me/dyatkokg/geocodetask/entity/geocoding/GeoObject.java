@@ -1,11 +1,11 @@
-package me.dyatkokg.geocodetask.dto.geocoding;
+package me.dyatkokg.geocodetask.entity.geocoding;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import me.dyatkokg.geocodetask.dto.address.BoundedBy;
+import me.dyatkokg.geocodetask.entity.address.BoundedBy;
 
 @Data
 @NoArgsConstructor

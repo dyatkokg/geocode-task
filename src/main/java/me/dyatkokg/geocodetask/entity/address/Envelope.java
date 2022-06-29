@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.geocoding;
+package me.dyatkokg.geocodetask.entity.address;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Point {
-
-    private String pos;
+public class Envelope {
+    private String lowerCorner;
+    private String upperCorner;
 }

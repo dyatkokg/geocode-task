@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.geocoding;
+package me.dyatkokg.geocodetask.entity.geocoding;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

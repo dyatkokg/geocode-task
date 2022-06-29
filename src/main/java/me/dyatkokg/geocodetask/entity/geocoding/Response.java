@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.address;
+package me.dyatkokg.geocodetask.entity.geocoding;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AddressDetails {
+public class Response {
 
-    @JsonProperty(value = "Country")
-    private Country country;
+    @JsonProperty(value = "GeoObjectCollection")
+    private GeoObjectCollection geoObjectCollection;
 
 }

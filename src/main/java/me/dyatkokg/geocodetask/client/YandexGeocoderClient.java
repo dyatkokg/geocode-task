@@ -1,7 +1,7 @@
 package me.dyatkokg.geocodetask.client;
 
 
-import me.dyatkokg.geocodetask.dto.geocoding.YandexGeocoderResponse;
+import me.dyatkokg.geocodetask.entity.geocoding.YandexGeocoderResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

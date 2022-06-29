@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.address;
+package me.dyatkokg.geocodetask.entity.address;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -8,8 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class PostalCode {
-    @JsonProperty(value = "PostalCodeNumber")
-    private String PostalCodeNumber;
+public class AddressDetails {
+
+    @JsonProperty(value = "Country")
+    private Country country;
 
 }

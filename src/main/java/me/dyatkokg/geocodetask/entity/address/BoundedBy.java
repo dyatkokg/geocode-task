@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.geocoding;
+package me.dyatkokg.geocodetask.entity.address;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -8,8 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class FeatureMember {
-
-    @JsonProperty(value = "GeoObject")
-    private GeoObject geoObject;
+public class BoundedBy {
+    @JsonProperty(value = "Envelope")
+    private Envelope envelope;
 }
