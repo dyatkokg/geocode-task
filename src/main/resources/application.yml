@@ -13,3 +13,13 @@ api:
       url: https://geocode-maps.yandex.ru/1.x/
 
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Geocoder_API
