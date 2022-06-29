@@ -22,4 +22,6 @@ management:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/Geocoder_API
+      host: ${MONGO_HOST}
+      port: 27017
+      database: Geocoder_API

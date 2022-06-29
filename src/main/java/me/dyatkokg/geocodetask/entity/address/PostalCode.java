@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class PostalCode {
     @JsonProperty(value = "PostalCodeNumber")
-    private String PostalCodeNumber;
+    private String postalCodeNumber;
 
 }

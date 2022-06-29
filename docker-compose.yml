@@ -2,14 +2,15 @@ version: '3'
 
 services:
   geocode-task:
-    image: geocode-task:1.0
+    image: geocode-task:1.3
     container_name: "geocode-task"
     depends_on:
       - mongo
     ports:
       - "6000:8080"
     environment:
-      MONGO: mongodb://mongo:27017/Geocoder_API
+      - MONGO_HOST=mongo
+
   mongo:
     image: mongo:latest
     container_name: "mongo-geocode"
