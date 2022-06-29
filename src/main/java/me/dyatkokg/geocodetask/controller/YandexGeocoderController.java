@@ -1,7 +1,7 @@
 package me.dyatkokg.geocodetask.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.dyatkokg.geocodetask.dto.geocoding.YandexGeocoderResponse;
+import me.dyatkokg.geocodetask.entity.geocoding.YandexGeocoderResponse;
 import me.dyatkokg.geocodetask.service.YandexGeocoderService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

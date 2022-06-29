@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.address;
+package me.dyatkokg.geocodetask.entity.address;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Premise {
+public class AdministrativeArea {
 
-    @JsonProperty(value = "PremiseNumber")
-    private String premiseNumber;
+    @JsonProperty(value = "AdministrativeAreaName")
+    private String administrativeAreaName;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    @JsonProperty(value = "PostalCode")
-    private PostalCode postalCode;
+    @JsonProperty(value = "Locality")
+    private Locality locality;
 }

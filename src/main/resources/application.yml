@@ -18,3 +18,15 @@ management:
       exposure:
         include: "*"
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  data:
+    mongodb:
+      host: ${MONGO_HOST}
+      port: 27017
+      database: Geocoder_API

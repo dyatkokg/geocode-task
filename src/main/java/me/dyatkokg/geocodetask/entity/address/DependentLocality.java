@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.address;
+package me.dyatkokg.geocodetask.entity.address;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

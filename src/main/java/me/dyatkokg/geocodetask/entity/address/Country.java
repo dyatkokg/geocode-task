@@ -1,4 +1,4 @@
-package me.dyatkokg.geocodetask.dto.address;
+package me.dyatkokg.geocodetask.entity.address;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
